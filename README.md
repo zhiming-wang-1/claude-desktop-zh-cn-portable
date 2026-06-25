@@ -59,7 +59,6 @@ Claude zh-CN
 桌面/开始菜单入口：Claude zh-CN
 ```
 
-官方 Claude Desktop 不会被放进本仓库，也不应该被上传到 GitHub。
 
 ## 常用菜单
 
@@ -77,32 +76,6 @@ Claude zh-CN
 
 如果网页登录成功后自动打开官方版，而绿色版仍停在登录页，请使用菜单 `12 Dual launch / OAuth login repair` 修复登录回调。
 
-## 安全边界
-
-本项目的设计目标是：
-
-- 不上传、不分发 Claude 官方程序本体。
-- 不上传、不分发官方 MSIX/Appx 安装包。
-- 不上传、不分发账号数据、Cookie、token、API key。
-- 尽量只修改独立绿色版副本。
-- 官方 Claude Desktop 可以继续作为原版备用。
-
-请不要把以下内容提交到 GitHub：
-
-```text
-Claude.exe
-app.asar
-icudtl.dat
-*.msix
-*.appx
-*.msixbundle
-*.appxbundle
-%LOCALAPPDATA%\ClaudeZhCN
-%APPDATA%\ClaudeZhCN-3p
-%APPDATA%\Claude
-```
-
-仓库里的 `.gitignore` 已经尽量拦截这些文件，但发布前仍建议自己检查一次。
 
 ## 与直接汉化官方版的区别
 
@@ -123,16 +96,6 @@ icudtl.dat
 
 修复官方版后，建议保持官方版原样，中文界面使用绿色版。
 
-## 开发与贡献
-
-欢迎提交：
-
-- 新增或修正中文词条。
-- 登录、设置页、Claude Code/Cowork 页面截图对应的漏翻补丁。
-- Windows 兼容性修复。
-- README、FAQ、故障排查文档改进。
-
-提交前请确认没有包含 Claude 官方二进制文件、账号数据或密钥。
 
 ## 来源与许可
 
