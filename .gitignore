@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local build and release artifacts
+build/
+dist/
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.token
+*token*
+*secret*
+*apikey*
+*api_key*
+
+# Claude official installers and packages
+*.msix
+*.appx
+*.msixbundle
+*.appxbundle
+*.cer
+*.pfx
+
+# Claude / Electron official application files
+Claude.exe
+claude.exe
+app.asar
+app.asar.unpacked/
+icudtl.dat
+snapshot_blob.bin
+v8_context_snapshot.bin
+resources.pak
+chrome_100_percent.pak
+chrome_200_percent.pak
+*.dll
+*.pak
+
+# Generated portable copies and user data
+ClaudeZhCN/
+ClaudeZhCN-3p/
+Claude/
+Claude_*/
+Anthropic.ClaudeCode_*/
+WindowsApps/
+User Data/
+Local Storage/
+Session Storage/
+IndexedDB/
+Network/
+Cache/
+Code Cache/
+GPUCache/
+Cookies
+Cookies-journal
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Editors
+.vscode/
+.idea/
